@@ -219,7 +219,7 @@ if ($params->get('compile_sass', '0') === '1')
 </div><!-- end panelnav -->
 <?php  endif;// end panelnav  ?>
 <!-- menu slide -->
-<a href="#" class="back-to-top">Back to Top</a>
+<a href="#" class="back-to-top">回顶部</a>
 <jdoc:include type="modules" name="debug" />
 </section>
 <!-- page -->

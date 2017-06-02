@@ -20,7 +20,7 @@ var parser      = new xml2js.Parser();
 
 var extPath      = '.';
 var assetsPath = '.';
-var templateName = 'masterbootstrap';
+var templateName = 'youyi';
 
 var wwwPath = config.wwwDir + '/templates/' + templateName;
 

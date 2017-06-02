@@ -1,0 +1,63 @@
+// remove <li> prefix for slideshow or others 
+.plain-ul-li .module-content ul li::before {
+    content: none;
+}
+
+body {
+    color: rgba(0,0,0,0.5);
+}
+body p {
+    font-weight: 600;
+}
+body h2, h3 {
+    font-family: Arial, Helvetica, Microsoft YaHei, SimHei, sans-serif!important;
+}
+body h2 {
+    font-size: 2em;
+    line-height: 1.1em;
+    color: #086FA1;
+}
+h3.title {
+    font-size: 1.2em;
+    color: #086FA1;
+    font-weight: 600;
+}
+h3.title:before {
+    content: "\f1b2";
+    font-family: "FontAwesome";
+    margin: 0px 8px;
+    color: rgba(66, 96, 109, 0.8);
+}
+
+.nav-tabs>li>a {
+   color: #086FA1; 
+}
+.nav-tabs>li>a:focus,
+.nav-tabs>li>a:hover {
+    color: #086FA1;    
+}
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:focus, 
+.nav-tabs>li.active>a:hover {
+    color: #086FA1;
+}
+// Override some bootstrap default colors 
+.well {
+    background-color: #63ADD0;
+    color: #086FA1;
+}
+legend {
+    color: #086FA1;
+}
+.navbar-default {
+    background-color: #63ADD0;
+    border-color: #63ADD0;
+}
+// Bootstrap menu toggle background customization 
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #3CADD0;
+}
+// Hide joomla and open source info
+.footer2 {
+    display: none;
+}
