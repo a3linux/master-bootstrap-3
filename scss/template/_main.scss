@@ -243,7 +243,7 @@ img {max-width: 100% }
     width: 1px;
 }
 #navigation {
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    /*box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);*/
 }
 .navbar {border-radius: 0!important; margin-bottom: 0!important }
 .navbar-default .navbar-nav > .active > a,
@@ -297,7 +297,7 @@ img {max-width: 100% }
 }
 #breadcrumbs {
     background: #f5f5f5;
-    padding: 20px 0 0;
+    padding: 20px 0 20px;
 }
 .breadcrumb {
     border-radius: 0px;
@@ -451,7 +451,7 @@ body #overall {
   font-family: 'Material Icons';
   font-style: normal;
   font-weight: 400;
-  src: local('Material Icons'), local('MaterialIcons-Regular'), url(http://fonts.gstatic.com/s/materialicons/v12/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url("//fonts.gstatic.com/s/materialicons/v12/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2") format('woff2');
 }
 
 .material-icons {
@@ -482,8 +482,14 @@ body {
     margin: 0 auto 0px;
     min-height: 100%;
 }
-body #wrap {
+body section {
     padding-top: 90px;
+}
+html.mm-background .mm-page.layout-boxed {
+    background: #fff!important;
+}
+body #wrap {
+    /*padding-top: 90px;*/
 }
 #copy.well {
     border-radius: 0;
@@ -721,7 +727,7 @@ background:#363636;
     right: auto!important;
 }
 body #wrap {
-    padding-top: 70px!important;
+    /*padding-top: 70px!important;*/
 }
 }
 /* Portrait tablet to landscape and desktop */
